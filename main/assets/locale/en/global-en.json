@@ -1,5 +1,6 @@
 {
   "GLOBAL" : {
+    "APP_NAME" : "Application Name",
     "MENU_ITEM_CAPTURE" : "Capture",
     "MENU_ITEM_CONFIGURATION" : "Configuration",
     "MENU_ITEM_CONTACT" : "Contact",
