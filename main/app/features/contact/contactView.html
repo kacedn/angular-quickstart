@@ -1,0 +1,22 @@
+
+<form ng-submit="">
+    <fieldset>
+        <legend>Personal information:</legend>
+        First name:<br>
+        <input type="text" ng-model="personne.firstname" value="" placeholder="Enter you firstname here"><br/>
+        Last name:<br>
+        <input type="text" ng-model="personne.lastname" value="" placeholder="Enter you lastname here"><br>
+        <!--<br>-->
+        <!--Hello {{personne.firstname + " " + personne.lastname}}!<br>-->
+        <br>
+        Age:<br>
+        <input type="text" ng-model="personne.age" value="" placeholder="Enter you age here"><br>
+        Mail:<br>
+        <input type="text" ng-model="personne.mail" value="" placeholder="Enter you mail here"><br>
+        Text to send:<br>
+        <textarea name="text" ng-model="text" rows=4 cols=40 placeholder="Enter you text to send here"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit" ng-click="send()">
+    </fieldset>
+</form>
